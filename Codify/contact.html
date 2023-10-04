@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Codify Institute</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="about.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"/>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+    <section class="sub-header">
+        <nav>
+            
+            <div class="nav-links" id="NavLinks">
+
+                <i class="glyphicon glyphicon-remove" onclick="hideMenu()"></i>
+                <ul>
+                    <li>
+                        <a href="index.html">HOME</a>
+                    </li>
+                    <li>
+                        <a href="About.html">ABOUT</a>
+                    </li>
+                    <li>
+                        <a href="course.html">COURSES</a>
+                    </li>
+                    <li>
+                        <a href="contact.html">CONTACT</a>
+                    </li>
+
+                </ul>
+            </div>
+            <div class="menu" onclick="showMenu()"></div>
+            <div class="menu" onclick="showMenu()"></div>
+            <div class="menu" onclick="showMenu()"></div>
+
+        </nav>
+
+            <h1>Contact Us</h1>
+
+    </section>
+
+
+
+    <!--Contact Us-->
+    <div class="location">
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3761.6744684738683!2d72.79540127389852!3d19.469597181817676!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7ab0ea8cec48b%3A0x6ab9754689f1ffca!2sRoyal%20Garden!5e0!3m2!1sen!2sin!4v1695884401065!5m2!1sen!2sin"
+            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+
+    <section class="Contact-US">
+        <div class="row">
+            <div class="contact-col">
+                <div>
+                    <i class="fa fa-home"></i>
+                    <span>
+                        <h5>Vinay Unique,agrawal global city</h5>
+                        <p>Virar West</p>
+                    </span>
+                </div>
+                <div>
+                    
+                    <img src="img/phone.jpg">
+                    <span>
+                        <h5>+91 9028793459</h5>
+                        <p>Monday to sunday, 10AM to 7PM</p>
+                    </span>
+                </div>
+                <div>
+                    <img src="img/email.jpg">
+                    <span>
+                        <h5>codifyinstitue@gmail.com</h5>
+                        <p>Email Us For Your Query</p>
+                    </span>
+                </div>
+                <div >
+                    <button class="btn2 red-btn"><a href="tel: +919028793459">Enquiry Now</a></button>
+                </div>
+            </div>
+           
+        </div>
+    </section>
+
+    <!-------Contact Form-->
+
+
+    <!--Footer-->
+
+    <div class="footer">
+        <h4>About Us</h4>
+        <p>Details</p>
+
+        <div class="icons">
+            <a href="" "><img src="img/facebook.png" ></a>
+            <a href="https://www.instagram.com/codifyinstitute/?igshid=OGQ5ZDc2ODk2ZA%3D%3D" ><img src=" img/instagram.jpg"></a>
+            <a href="" "><img src=" img/twitter.png"></a>
+            <a href="" "><img src=" img/telegram.png"></a>
+        </div>
+        <p>Made by <img src="">Codify Institute</p>
+    </div>
+    <!--------------Es6--------->
+    <script>
+        var NavLinks = document.getElementById("NavLinks");
+        function showMenu() {
+            NavLinks.style.right = "0px";
+        }
+        function hideMenu() {
+            NavLinks.style.right = "-200px";
+        }
+
+    </script>
+</body>
+
+</html>

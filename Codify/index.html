@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Codify Institute</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="about.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+   
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="img/logo3.jpg"></a>
+            <div class="nav-links" id="NavLinks">
+           
+            <i class="glyphicon glyphicon-remove" onclick="hideMenu()"></i>
+                <ul>
+                    <li>
+                        <a href="index.html">HOME</a>
+                    </li>
+                    <li>
+                        <a href="About.html">ABOUT</a>
+                    </li>
+                    <li>
+                        <a href="course.html">COURSES</a>
+                    </li>
+                    <li>
+                        <a href="contact.html">CONTACT</a>
+                    </li>
+                    
+                </ul>
+            </div>
+            <div class="menu" onclick="showMenu()"></div>
+            <div class="menu" onclick="showMenu()"></div>
+            <div class="menu" onclick="showMenu()"></div>
+            
+        </nav>
+
+        <div class="text-box">
+            <h1>Leading Training Institute</h1>
+            <p>Making You Job Ready for your Dream Job.<br>Learn ML,Data science,Flutter.</p>
+            <a href="contact.html" class="btn1 blue-btn">Feel Free to Contact Us</a>
+        </div>
+
+
+    </section>
+
+    
+
+    <!--Institute-->
+
+    <div class="institute">
+        <h1>Courses We Offer</h1>
+        
+        <div class="row">
+            <div class="inst-col">
+                <img src="img/flu.png">
+                <div class="layer">
+                    <h3><a href="course.html">Flutter</a></h3>
+                </div>
+            </div>
+            <div class="inst-col">
+                <img src="img/ml.png">
+                <div class="layer">
+                    <h3><a href="course.html">Machine Learning</a></h3>
+                </div>
+            </div>
+            <div class="inst-col">
+                <img src="img/web-development.png">
+                <div class="layer">
+                    <h3><a href="course.html">Fullstack Developer</a></h3>
+                </div>
+            </div>
+        </div>
+        <div>
+            <button class="btn2 red-btn"><a href="course.html">Explore More Courses</a></button>
+        </div>
+    </div>
+
+<!--Contact Us-->
+<div class="cta">
+    <h1>Enroll For Our Various Courses <br> Anywhere From the World</h1>
+    <a href="contact.html" class="btn1 blue-btn">Contact Us</a>
+</div>
+
+<!--Footer-->
+
+<div class="footer">
+    <h4>About Us</h4>
+    <p>Details</p>
+    
+    <div class="icons">
+        <a href="" "><img src=" img/facebook.png"></a>
+        <a href="https://www.instagram.com/codifyinstitute/?igshid=OGQ5ZDc2ODk2ZA%3D%3D" ><img src=" img/instagram.jpg"></a>
+        <a href="" "><img src=" img/twitter.png"></a>
+        <a href="" "><img src=" img/telegram.png"></a>
+    </div>
+    <p>Made by <img src="">Codify Institute</p>
+</div>
+<!--------------Es6--------->
+    <script>
+        var NavLinks = document.getElementById("NavLinks");
+        function showMenu(){
+            NavLinks.style.right = "0px";
+        }
+        function hideMenu() {
+                NavLinks.style.right = "-200px";
+            }
+
+    </script>
+</body>
+</html>
